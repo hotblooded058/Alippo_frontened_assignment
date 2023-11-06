@@ -1,8 +1,69 @@
-# React + Vite
+# React Data Table Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that displays data from an external API source in a table format. It allows you to edit and delete entries in the table, demonstrating knowledge of React, state management, and API integration.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Demo
+
+You can view a live demo of the application [here](#insert_live_demo_link_here).
+
+## Getting Started
+
+To get started with this project on your local machine, follow these steps:
+
+1. Clone the repository to your local machine using `git clone`.
+2. Navigate to the project directory.
+3. Install the required dependencies using `npm install`.
+4. Start the development server using `npm start`.
+5. Open your web browser and go to `http://localhost:3000` to see the application.
+
+## Usage
+
+The application fetches data from the [provided API](https://assets.alippo.com/catalog/static/data.json) and displays it in a table. You can perform the following actions:
+
+- Edit: Click the "Edit" button to modify the name of an entry in the table.
+- Delete: Click the "Delete" button to remove an entry from the table.
+
+## Features
+
+- Fetches data from an external API.
+- Displays data in a table with edit and delete actions.
+- Handles null/empty cases in data.
+- Provides modals for editing and confirming deletions.
+- Maintains state for the table entries.
+- Built with React and TypeScript/JavaScript.
+
+## Technologies Used
+
+- React
+- TypeScript/JavaScript
+- HTML and CSS
+- External API for data source
+
+## Project Structure
+
+The project structure is organized as follows:
+
+- `src/` - Contains the source code for the React application.
+  - `components/` - Contains React components.
+  - `App.js` - The main application component.
+  - `App.css` - Styles for the application.
+- `public/` - Contains the public assets and HTML file.
+
+## Contributing
+
+Feel free to contribute to this project by opening issues or creating pull requests. Your contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
