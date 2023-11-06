@@ -8,6 +8,9 @@ This is a React application that displays data from an external API source in a 
 ![Screenshot 2023-11-06 190847](https://github.com/hotblooded058/Alippo_frontened_assignment/assets/88645562/0127f5f4-4be5-4c9d-b015-721b5935b799)
 
 
+# Live Link
+
+https://bright-macaron-4fc43c.netlify.app
 
 ## Getting Started
 
