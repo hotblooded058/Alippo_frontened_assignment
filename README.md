@@ -2,16 +2,12 @@
 
 This is a React application that displays data from an external API source in a table format. It allows you to edit and delete entries in the table, demonstrating knowledge of React, state management, and API integration.
 
-## Table of Contents
+# Screenshot
+![Screenshot 2023-11-06 190835](https://github.com/hotblooded058/Alippo_frontened_assignment/assets/88645562/10fcec48-6fbe-4748-9813-b10e73740f6b)
 
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+![Screenshot 2023-11-06 190847](https://github.com/hotblooded058/Alippo_frontened_assignment/assets/88645562/0127f5f4-4be5-4c9d-b015-721b5935b799)
+
+
 
 ## Demo
 
@@ -60,10 +56,3 @@ The project structure is organized as follows:
   - `App.css` - Styles for the application.
 - `public/` - Contains the public assets and HTML file.
 
-## Contributing
-
-Feel free to contribute to this project by opening issues or creating pull requests. Your contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
