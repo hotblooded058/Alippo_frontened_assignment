@@ -9,10 +9,6 @@ This is a React application that displays data from an external API source in a 
 
 
 
-## Demo
-
-You can view a live demo of the application [here](#insert_live_demo_link_here).
-
 ## Getting Started
 
 To get started with this project on your local machine, follow these steps:
