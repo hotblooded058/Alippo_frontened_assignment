@@ -1,6 +1,6 @@
 # React Data Table Dashboard
 
-This is a React application that displays data from an external API source in a table format. It allows you to edit and delete entries in the table, demonstrating knowledge of React, state management, and API integration.
+This is a React application that displays data from an external API source in a table format. It allows you to edit and delete entries in the table, demonstrating knowledge of React, state management.
 
 # Screenshot
 ![Screenshot 2023-11-06 190835](https://github.com/hotblooded058/Alippo_frontened_assignment/assets/88645562/10fcec48-6fbe-4748-9813-b10e73740f6b)
