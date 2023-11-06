@@ -1,0 +1,203 @@
+/* styles.css */
+.heading{
+  font-size: 50px;
+  margin: 10px 0;
+  color: #fff; 
+  padding: 20px;
+}
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #212529;
+  border: 2px solid #454d55;
+  color: #dee2e6;
+}
+
+.data-table th, .data-table td {
+  padding: 12px;
+  border: 1px solid #454d55;
+  text-align: left;
+}
+
+.data-table th {
+  background: #343a40;
+  color: #adb5bd;
+  font-weight: 600;
+}
+
+.edit-btn{
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn{
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+
+.data-table tr:nth-child(even) {
+  background: #343a40;
+}
+
+.data-table tr:nth-child(odd) {
+  background: #212529;
+}
+
+.data-table tr:hover {
+  background: #495057;
+}
+
+h1 {
+  color: #dee2e6;
+}
+.selected {
+  background: #495057;
+  color: #ffffff;
+}
+.button-space {
+  margin-left: 10px; 
+}
+
+.edit-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.edit-card {
+  background-color: #333; 
+  border: 1px solid #555; 
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 300px; 
+  overflow: hidden; 
+}
+
+.edit-title {
+  font-size: 15px;
+  margin: 10px 0;
+  color: #fff; 
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.edit-input {
+  width: 80%;
+  padding: 8px;
+  margin-left: 20px;
+  background-color: #444; 
+  color: #fff; 
+  border: 1px solid #555; 
+}
+
+.edit-card-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333; 
+}
+
+.edit-save,
+.edit-cancel {
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.edit-cancel {
+  background-color: #555; 
+}
+
+.edit-save:hover {
+  background-color: #0056b3;
+}
+
+.edit-cancel:hover {
+  background-color: #444;
+}
+
+
+.delete-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.delete-card {
+  background-color: #333; 
+  border: 1px solid #555; 
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 300px; 
+  height: 100px;
+}
+
+.delete-title {
+  font-size: 15px;
+  margin: 10px 0;
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.delete-card-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333; 
+}
+
+.delete-confirm,
+.delete-cancel {
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.delete-cancel {
+  background-color: #555; 
+}
+.delete-confirm:hover {
+  background-color: #0056b3;
+}
+
+.delete-cancel:hover {
+  background-color: #444;
+}
